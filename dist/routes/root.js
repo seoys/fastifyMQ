@@ -29,7 +29,7 @@ const root = async (fastify, opts) => {
     // },
     async (request, reply) => {
       reply.code(200).send({
-        info: "EQL API!"
+        info: "MQ API!"
       });
     }
   );
