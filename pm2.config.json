@@ -1,0 +1,23 @@
+{
+	"apps": [
+		{
+			"name": "mq",
+			"port": "10005",
+			"script": "./server.js",
+			"node_args": [],
+			"interpreter": "",
+			"args": [],
+			"watch": false,
+			"ignore_watch": ["node_modules", ".git", "logs"],
+			"merge_logs": true,
+			"exec_mode": "folk",
+			"log_date_format": "YYYY-MM-DD HH:mm Z",
+			"instance_var": "INSTANCE_ID",
+			"env": {
+				"COMMON_VARIABLE": true,
+				"NODE_ENV": "production",
+				"PORT": 10005
+			}
+		}
+	]
+}
