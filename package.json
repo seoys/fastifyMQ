@@ -1,0 +1,51 @@
+{
+  "name": "chat.eqlstore.com",
+  "version": "1.0.0",
+  "description": "EQL API Project",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && etsc",
+    "test": "tap",
+    "clinic": "clinic doctor -- node ./dist/app.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P ./dist/app.js",
+    "start:dev": "sh ./shell/develop.sh",
+    "start:stg": "sh ./shell/stg.sh",
+    "start:prod": "sh ./shell/production.sh",
+    "local": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/plugin-transform-flow-strip-types": "^7.22.5",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-flow": "^7.22.15",
+    "@types/bull": "^4.10.0",
+    "@types/node": "^20.8.9",
+    "esbuild": "^0.19.5",
+    "esbuild-node-tsc": "^2.0.5",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "fastify": "^4.24.3",
+    "fastify-cli": "^5.8.0",
+    "generate-changelog": "^1.8.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.8.0",
+    "bull": "^4.11.4",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.3",
+    "reflect-metadata": "^0.1.13",
+    "register": "link:@fastify/autoloadmodule-alias/register"
+  }
+}

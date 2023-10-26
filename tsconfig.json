@@ -1,0 +1,43 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"allowJs": true,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"typeRoots": ["./node_modules/@types", "@types"],
+		"sourceMap": true,
+		"outDir": "dist",
+		"strict": true,
+		"lib": ["es2018", "esnext"],
+		"baseUrl": "./src",
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"strictPropertyInitialization": false,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"noResolve": false,
+		"paths": {
+			"$types/*": ["types/*"],
+			"$graphql/*": ["graphql/*"],
+			"$controllers/*": ["controllers/*"],
+			"$plugins/*": ["pougins/*"],
+			"$utils/*": ["utils/*"],
+			"$template/*": ["template/*"]
+		}
+	},
+	"include": ["src/**/**/**/*", "@types"],
+	"exclude": ["node_modules", "dist", "test", "shell"]
+}

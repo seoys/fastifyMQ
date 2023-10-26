@@ -1,0 +1,8 @@
+# 마크다운 제외
+*.md
+
+# package 제외
+package.json
+
+# node 모듈 제외
+node_modules/
