@@ -10,7 +10,7 @@
 			"watch": false,
 			"ignore_watch": ["node_modules", ".git", "logs"],
 			"merge_logs": true,
-			"exec_mode": "folk",
+			"exec_mode": "fork",
 			"log_date_format": "YYYY-MM-DD HH:mm Z",
 			"instance_var": "INSTANCE_ID",
 			"env": {
