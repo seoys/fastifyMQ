@@ -1,16 +1,11 @@
-# EQL API 리뉴얼 프로젝트
+# Fastify MQ
 
-신규 API(GraphQL, REST API)
+BullMQ 테스트
 
 ## Description
 
 + NodeJS 18.x.x
 + FastifyJS
-+ Graphql
-+ MongoDB 연동
-+ Redis 연동
-+ Kakao 아이 오픈 빌더 연동
-+ Line 메신저 연동
 
 ## Getting Started
 
