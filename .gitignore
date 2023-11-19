@@ -81,7 +81,7 @@ test/
 # dist/
 
 #env file
-.env
+# .env
 
 #vscode
 .vscode
