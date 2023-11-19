@@ -22,7 +22,7 @@ const index: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
 		});
 	});
 
-	fastify.get('/datas/', async (req: FastifyRequest, reply: FastifyReply) => {
+	fastify.get('/datas', async (req: FastifyRequest, reply: FastifyReply) => {
 		const result = await flagDatas();
 		const RedisName = 'Nataions';
 		const redisResult = await fastify.redis.set(
