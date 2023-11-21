@@ -49,6 +49,7 @@
     "module-alias": "^2.2.3",
     "mongoose": "^8.0.1",
     "reflect-metadata": "^0.1.13",
-    "register": "link:@fastify/autoloadmodule-alias/register"
+    "register": "link:@fastify/autoloadmodule-alias/register",
+    "wikipedia": "^2.1.1"
   }
 }

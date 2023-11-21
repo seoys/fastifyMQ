@@ -31,5 +31,3 @@ export default async (
 
 	// fastify.addHook('preHandler', fastify.auth([fastify.verifyAdmin]));
 };
-
-fastify - plugin;
