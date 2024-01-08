@@ -12,7 +12,7 @@
     "clinic": "clinic doctor -- node ./dist/app.js",
     "start": "fastify start -l info app.js",
     "dev": "fastify start -w -l info -P ./dist/app.js",
-    "start:prod": "pnpm build && pm2 kill && pm2 start pm2.config.json",
+    "start:prod": "pm2 kill && pm2 start pm2.config.json",
     "local": "nodemon"
   },
   "keywords": [],
